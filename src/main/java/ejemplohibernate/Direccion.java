@@ -48,8 +48,4 @@ public class Direccion {
 		this.altura = altura;
 	}
 
-	@Override
-	public String toString() {
-		return "Direccion [id=" + id + ", calle=" + calle + ", altura=" + altura + "]";
-	}
 }
