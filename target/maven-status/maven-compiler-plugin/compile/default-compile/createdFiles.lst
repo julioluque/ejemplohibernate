@@ -1,3 +1,5 @@
 ejemplohibernate\HibernateUtil.class
 ejemplohibernate\Persona.class
+ejemplohibernate\Direccion.class
 ejemplohibernate\Principal.class
+ejemplohibernate\Telefono.class
