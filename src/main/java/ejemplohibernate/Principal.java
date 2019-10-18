@@ -7,6 +7,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import com.mysql.cj.QueryResult;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -101,10 +103,10 @@ public class Principal {
 
 //		CONSULTA 5 =================================================================
 
-		Long idPersona 10L;
+//		Long idPersona = 10L;
 		
-		Query query1 = session.createQuery("select count(*) from Persona");
-		
+//		Query query1 = session.createQuery("select count(*) from Persona");
+//		long cantidad = (Long)QueryResult();
 //		=================================================================		
 		transaction.commit();
 		session.close();
